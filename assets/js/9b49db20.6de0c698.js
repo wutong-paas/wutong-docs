@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[43],{3580:function(s){s.exports=JSON.parse('{"allTagsPath":"/wutong-docs/blog/tags","slug":"/wutong-docs/blog/tags/\u535a\u5ba2","name":"\u535a\u5ba2","count":1,"permalink":"/wutong-docs/blog/tags/\u535a\u5ba2"}')}}]);
