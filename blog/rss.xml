@@ -8,10 +8,14 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[kunpeng-install]]></title>
-            <link>https://wutong-pass.github.io/wutong-docs/blog/2022/03/11/kunpeng-install</link>
-            <guid>/2022/03/11/kunpeng-install</guid>
+            <title><![CDATA[鲲鹏适配安州]]></title>
+            <link>https://wutong-pass.github.io/wutong-docs/blog/zhoupeng/20220311/kunpeng-install</link>
+            <guid>zhoupeng/20220311/kunpeng-install</guid>
             <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[拉取镜像]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="拉取镜像">拉取镜像<a class="hash-link" href="#拉取镜像" title="Direct link to heading">​</a></h2>]]></content:encoded>
+            <category>kunpeng</category>
+            <category>install</category>
         </item>
         <item>
             <title><![CDATA[技术博客编制手册]]></title>
