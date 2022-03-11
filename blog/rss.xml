@@ -4,9 +4,15 @@
         <title>梧桐PaaS Blog</title>
         <link>https://wutong-pass.github.io/wutong-docs/blog</link>
         <description>梧桐PaaS Blog</description>
-        <lastBuildDate>Thu, 10 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[kunpeng-install]]></title>
+            <link>https://wutong-pass.github.io/wutong-docs/blog/2022/03/11/kunpeng-install</link>
+            <guid>/2022/03/11/kunpeng-install</guid>
+            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[技术博客编制手册]]></title>
             <link>https://wutong-pass.github.io/wutong-docs/blog/fcheng/20220309/blog-tutorial</link>
