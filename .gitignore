@@ -1,0 +1,26 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# logs
+/logs
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# personal information
+info.md
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
