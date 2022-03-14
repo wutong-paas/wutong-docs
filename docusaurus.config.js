@@ -119,7 +119,14 @@ const config = {
       },
     }),
   
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [ 
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: ["en", "zh"],
+      },
+    ],
+  ],
 };
 
 module.exports = config;
