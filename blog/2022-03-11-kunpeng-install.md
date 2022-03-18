@@ -178,8 +178,6 @@ helm pull rainbond/rainbond-console
 
 将K8S集群接入（安装rbd组件）
 
-单独使用自己的chart 再安装console  ui
-
 
 
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rainbond-operator:v2.2.0-arm64
