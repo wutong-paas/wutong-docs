@@ -7,6 +7,8 @@ tags: [kunpeng, install]
 
 
 
+
+
 ## 安装环境
 
 操作系统版本：openEuler 20.03
@@ -82,7 +84,6 @@ cd etcd-v3.5.0-linux-arm64
 docker build -t registry.aliyuncs.com/google_containers/etcd:3.5.0-0 .
 
 
-
 ```
 
 #### 配置 arm 的 yum 源
@@ -101,8 +102,6 @@ EOF
 yum clean all && yum makecache
 
 yum list kubectl --showduplicates | sort -r
-# 安装 K8S 组件
-
 
 ```
 
@@ -141,11 +140,13 @@ kubeadm init \
 helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
 mkdir sfs-charts
 helm show values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner > ./sfs-charts/values.yaml
+
 # 修改values文件以下配置
 repository: devhub.devcloud.talkweb.com.cn/sig-storage/nfs-subdir-external-provisioner-arm64:v4.0.2
-nfs.server配置：172.16.1.46  # 实际的sfs地址
-nfs.path配置：/
-storageClass.name配置：sfs
+nfs.server：172.16.1.46  # 实际的sfs地址
+nfs.path：/
+storageClass.name：sfs
+
 # 安装插件
 helm install nfs-subdir-external-provisioner -f ./sfs-charts/values.yaml nfs-subdir-external-provisioner/nfs-subdir-external-provisioner
 ```
@@ -155,10 +156,14 @@ helm install nfs-subdir-external-provisioner -f ./sfs-charts/values.yaml nfs-sub
 #### 挂载sfs文件系统
 
 ```shell
+# 挂载目录
 mount -t nfs -o vers=3,nolock 192.168.0.99:/  /mnt/sfs_turbo
+
 #fstab 配置
 192.168.0.99:/ /mnt/sfs_turbo nfs vers=3,timeo=600,nolock 0 0
 ```
+
+
 
 ## 梧桐PAAS安装 
 
@@ -170,16 +175,19 @@ mount -t nfs -o vers=3,nolock 192.168.0.99:/  /mnt/sfs_turbo
 helm repo add wutong-paas https://openchart.goodrain.com/goodrain/rainbond
 # 下载console
 helm pull rainbond/rainbond-console
-# 配置value.yaml 使用allinone安装
-
+# 配置value.yaml 按实际情况调整以下配置(默认allinone模式)
+pvc:
+redis:
+mysql:
 ```
 
 
 
-将K8S集群接入（安装rbd组件）
+#### 接入K8S集群（安装rbd组件）
 
+提前下载对应镜像，目前镜像大部分在官网仓库可找到，只有nfs-provisioner存储插件镜像需要自编译
 
-
+```
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rainbond-operator:v2.2.0-arm64
 docker tag registry.cn-hangzhou.aliyuncs.com/goodrain/rainbond-operator:v2.2.0-arm64 registry.cn-hangzhou.aliyuncs.com/goodrain/rainbond-operator:v2.2.0
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-chaos:v5.5.0-release-arm64
@@ -188,8 +196,8 @@ docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-node:v5.5.0-release-a
 docker tag registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-node:v5.5.0-release-arm64 registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-node:v5.5.0-release
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-gateway:v5.5.0-release-arm64
 docker tag registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-gateway:v5.5.0-release-arm64 registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-gateway:v5.5.0-release
-docker pull wutongpaas/etcd:v3.3.18
-docker tag wutongpaas/etcd:v3.3.18 registry.cn-hangzhou.aliyuncs.com/goodrain/etcd:v3.3.18
+docker pull gcr.io/google-containers/etcd-arm64:3.3.17
+docker tag gcr.io/google-containers/etcd-arm64:3.3.17 registry.cn-hangzhou.aliyuncs.com/goodrain/etcd:v3.3.18
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-scraper:v1.0.4
 docker tag registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-scraper:v1.0.4-arm64 registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-scraper:v1.0.4
 docker pull registry.cn-hangzhou.aliyuncs.com/goodrain/rbd-api:v5.5.0-release-arm64
@@ -222,3 +230,8 @@ docker pull rancher/metrics-server:v0.3.6-arm64
 docker tag rancher/metrics-server:v0.3.6-arm64 registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-server:v0.3.6
 docker pull kubernetesui/metrics-scraper:v1.0.4
 docker tag kubernetesui/metrics-scraper:v1.0.4 registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-scraper:v1.0.4
+```
+
+最后console 界面导入集群
+
+
