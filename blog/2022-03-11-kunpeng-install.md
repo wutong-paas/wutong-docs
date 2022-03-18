@@ -232,7 +232,7 @@ docker pull kubernetesui/metrics-scraper:v1.0.4
 docker tag kubernetesui/metrics-scraper:v1.0.4 registry.cn-hangzhou.aliyuncs.com/goodrain/metrics-scraper:v1.0.4
 ```
 
-最后console 界面导入集群
+#### 最后console 界面导入集群
 ![image](https://user-images.githubusercontent.com/23066464/158973160-a543f09e-a6b3-4dfc-b79f-5f82150ce8ed.png)
 
 
