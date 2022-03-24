@@ -143,6 +143,11 @@ ASF 2019年度报告中披露了 ASF软件在全球各国家的下载量排名�
 3. ASF孵化器拥有导师200多个，然而活跃的中国导师不超过5个。
 4. ASF每年在美国、欧洲等地举办ApacheCon，然而今为止，ASF尚未在中国举办过一次ApacheCon。作为全球最大的开源消费国，中国有广泛的ASF群众基础，如何将这些开源项目用户发展转换成社区的贡
 
+**当前：**  
+[linux-kernel 共享榜](/img/kernel-contributes.png)  
+
+** 未来... ? **
+
 ## 梧桐PaaS平台开源探索
 [梧桐PaaS平台开源策略](https://github.com/wutong-paas/wutong-tasks/issues/18)
 
