@@ -177,7 +177,7 @@ ASF 2019年度报告中披露了 ASF软件在全球各国家的下载量排名�
   
 ![linux-kernel 共享榜](/img/kernel-contributes.png)  
 
-** 未来... ? **
+**未来... ?**
 
 ## 梧桐PaaS平台开源探索
 [梧桐PaaS平台开源策略](https://github.com/wutong-paas/wutong-tasks/issues/18)
