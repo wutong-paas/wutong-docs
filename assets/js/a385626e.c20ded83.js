@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8115],{3878:function(s){s.exports=JSON.parse('{"allTagsPath":"/wutong-docs/blog/tags","slug":"/wutong-docs/blog/tags/mdx","name":"MDX","count":1,"permalink":"/wutong-docs/blog/tags/mdx"}')}}]);

@@ -9,8 +9,8 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[开源文化及梧桐PaaS平台开源探索]]></title>
-            <link>https://wutong-pass.github.io/wutong-docs/blog/2022/03/24/fcheng/opensource-and-wutongpaas</link>
-            <guid>/2022/03/24/fcheng/opensource-and-wutongpaas</guid>
+            <link>https://wutong-pass.github.io/wutong-docs/blog/fcheng/20220324/opensource-and-wutongpaas</link>
+            <guid>fcheng/20220324/opensource-and-wutongpaas</guid>
             <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[开源介绍]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="开源介绍">开源介绍<a class="hash-link" href="#开源介绍" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="开源软件发展历程">开源软件发展历程<a class="hash-link" href="#开源软件发展历程" title="Direct link to heading">​</a></h3><p><img src="https://user-images.githubusercontent.com/100248197/155274146-0d3e36b8-539f-4323-ab22-15dcc23f2837.png" alt="history of FOOS"></p><ul><li>1982 ~ 1993 年： 自由软件，GNU的时代；</li><li>1994 ~ 2002 年： 开源和Linux、Apache崛起；</li><li>2003 ~ 2010 年： 大数据、云计算时代；</li><li>2011 ~    现在： 开源已经成为主流、云原生时代。
@@ -24,6 +24,8 @@
 <!-- -->开放原子开源基金会设<strong>理事会</strong>、<strong>TOC </strong>与<strong>秘书处</strong>，理事会负责审议和修改基金会章程等；TOC 也即技术监督委员会是其中立的技术决策机构，负责基金会技术相关的决策，以及项目的孵化评审等；秘书处是基金会的执行机构，负责基金会日常事务等工作。至此，开源软件在国内开始受到各行各业的广泛重视。<br>
 <!-- -->2021 年 3 月，国家十四五发展规划中首次提及“开源”，明确指出“支持数字技术开源社区等创新联合体发展，完善开源知识产权和法律体系，鼓励企业开放软件源代码、硬件设计和应用服务”。</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="当下开源软件繁荣景象">当下开源软件繁荣景象<a class="hash-link" href="#当下开源软件繁荣景象" title="Direct link to heading">​</a></h3><ul><li>99%世界500强公司使用开源软件</li><li>在80%的IT部门增加开源软件的使用</li><li>在企业软件中有35%是基于开源软件的</li><li>超过5600万开发者在为从事开源项目</li><li>GIthub上有超过1.4亿开源项目</li><li>每天约有10000行代码添加到Linux<br><img src="https://user-images.githubusercontent.com/100248197/159815237-5412a1bc-f763-42ff-8384-b235dc306eb5.png" alt="linux-kernel">  </li><li>服务器操作系统市场被Linux统治
 <img src="https://user-images.githubusercontent.com/100248197/159817122-d8ff2319-7bbc-40e6-9297-fce0a827018f.png" alt="700px-Operating_systems_used_on_top_500_supercomputers svg"></li><li><a href="https://devstats.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF开源项目的繁荣</a>  </li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="开源和云">开源和云<a class="hash-link" href="#开源和云" title="Direct link to heading">​</a></h3><ul><li>在过去十年左右的时间里，随着云计算在基础设施、数据和服务等多个层次上的采用，开源的趋势也在同步发展。</li><li>免费和开源软件是云计算的主要驱动力</li><li>云提供商严重依赖开源软件，如Linux，以及虚拟化软件，如KVM和Xen</li><li>开源软件同时提供云提供商和云用户的主要优势是它的部署是免费的</li><li>一切皆为服务</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="开源的误区">开源的误区<a class="hash-link" href="#开源的误区" title="Direct link to heading">​</a></h3><h2 class="anchor anchorWithStickyNavbar_mojV" id="梧桐paas平台探索">梧桐PaaS平台探索<a class="hash-link" href="#梧桐paas平台探索" title="Direct link to heading">​</a></h2><p><a href="https://github.com/wutong-paas/wutong-tasks/issues/18" target="_blank" rel="noopener noreferrer">梧桐PaaS平台开源策略</a></p>]]></content:encoded>
+            <category>分享</category>
+            <category>文档</category>
         </item>
         <item>
             <title><![CDATA[鲲鹏适配安装]]></title>

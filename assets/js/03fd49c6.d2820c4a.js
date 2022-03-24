@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5599],{5698:function(s){s.exports=JSON.parse('{"allTagsPath":"/wutong-docs/blog/tags","slug":"/wutong-docs/blog/tags/kunpeng","name":"kunpeng","count":1,"permalink":"/wutong-docs/blog/tags/kunpeng"}')}}]);
