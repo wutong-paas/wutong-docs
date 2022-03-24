@@ -1,3 +1,9 @@
+---
+slug: fcheng/20220324/opensource-and-wutongpaas
+title: 开源文化及梧桐PaaS平台开源探索
+authors: fcheng
+tags: [分享, 文档]
+---
 # 开源文化及梧桐PaaS平台开源探索
 ## 开源介绍
 ### 开源软件发展历程
