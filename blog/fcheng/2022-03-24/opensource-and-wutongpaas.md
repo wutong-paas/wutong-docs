@@ -109,8 +109,8 @@ tags: [分享, 文档]
 
 #### 2. 商业模式的挑战
 
-开源产品的商业模型基本上融合了以下四种模型:开放核心(Open-Core)，同时提供差异化的商业产品；专业服务(Professional Services)；托管(Hosting)；市场(Market place)，提供应用商店、应用市场、插件。
-[企业拥抱开源之前，必须了解的七件事](https://mp.weixin.qq.com/s/TWgjCukcGVYy06Dx5_Z4zA)
+开源产品的商业模型基本上融合了以下四种模型:开放核心(Open-Core)，同时提供差异化的商业产品；专业服务(Professional Services)；托管(Hosting)；市场(Market place)，提供应用商店、应用市场、插件。  
+引用材料：[企业拥抱开源之前，必须了解的七件事](https://mp.weixin.qq.com/s/TWgjCukcGVYy06Dx5_Z4zA)
 
 ## 梧桐PaaS平台探索
 [梧桐PaaS平台开源策略](https://github.com/wutong-paas/wutong-tasks/issues/18)
