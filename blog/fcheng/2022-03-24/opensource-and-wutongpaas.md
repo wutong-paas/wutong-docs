@@ -144,7 +144,8 @@ ASF 2019年度报告中披露了 ASF软件在全球各国家的下载量排名�
 4. ASF每年在美国、欧洲等地举办ApacheCon，然而今为止，ASF尚未在中国举办过一次ApacheCon。作为全球最大的开源消费国，中国有广泛的ASF群众基础，如何将这些开源项目用户发展转换成社区的贡
 
 **当前：**  
-[linux-kernel 共享榜](/img/kernel-contributes.png)  
+  
+![linux-kernel 共享榜](/img/kernel-contributes.png)  
 
 ** 未来... ? **
 
