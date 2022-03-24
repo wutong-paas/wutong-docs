@@ -66,10 +66,11 @@ tags: [分享, 文档]
 * 在企业软件中有35%是基于开源软件的
 * 超过5600万开发者在为从事开源项目
 * GIthub上有超过1.4亿开源项目
-* 每天约有10000行代码添加到Linux  
-![linux-kernel](https://user-images.githubusercontent.com/100248197/159815237-5412a1bc-f763-42ff-8384-b235dc306eb5.png)  
-* 服务器操作系统市场被Linux统治
-![700px-Operating_systems_used_on_top_500_supercomputers svg](https://user-images.githubusercontent.com/100248197/159817122-d8ff2319-7bbc-40e6-9297-fce0a827018f.png)
+* 每天约有10000行代码添加到Linux    
+![linux-kernel](https://user-images.githubusercontent.com/100248197/159815237-5412a1bc-f763-42ff-8384-b235dc306eb5.png)   
+
+* 服务器操作系统市场被Linux统治  
+![服务器操作系统市场占有](https://user-images.githubusercontent.com/100248197/159817122-d8ff2319-7bbc-40e6-9297-fce0a827018f.png)  
 * [CNCF开源项目的繁荣](https://devstats.cncf.io/)  
 
 ### 开源和云
@@ -101,6 +102,7 @@ tags: [分享, 文档]
 ### 企业拥抱开源的挑战
 
 #### 开源的无法预估性
+
 1. 开发人员无法预估
 2. 开发周期无法预估
 3. 工作时间无法预估
