@@ -22,7 +22,7 @@ tags: [分享, 文档]
 * 今天，**开源许可已经走向了标准化**，并且易于使用。我们可以将现有的许可证直接复制-粘贴到项目中。
 #### 自由软件，开源软件和免费软件对比
 ![自由-开源-免费-](https://user-images.githubusercontent.com/100248197/159671212-ea0e018f-bf2a-4a9f-b7ce-381487a79749.png)
-#### [OSI已经批准的license](https://opensource.org/licenses/alphabetical)
+#### **[OSI](https://en.wikipedia.org/wiki/Open_Source_Initiative)已经批准的license** [licenses](https://opensource.org/licenses/alphabetical)
 #### 开源社区流行和被广泛使用的许可证
 * Apache License 2.0 (Apache-2.0)
 * 3-clause BSD license (BSD-3-Clause)
