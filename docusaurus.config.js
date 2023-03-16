@@ -32,8 +32,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/wutong-paas/wutong-docs/tree/master/',
+          editUrl: 'https://github.com/wutong-paas/wutong-docs/tree/master/',
           blogSidebarTitle: '最近技术博客',
           blogSidebarCount: 'ALL',
         },
