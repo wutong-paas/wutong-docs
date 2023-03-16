@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5599],{5698:e=>{e.exports=JSON.parse('{"label":"kunpeng","permalink":"/wutong-docs/blog/tags/kunpeng","allTagsPath":"/wutong-docs/blog/tags","count":1}')}}]);

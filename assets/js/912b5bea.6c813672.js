@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4656],{7424:e=>{e.exports=JSON.parse('{"permalink":"/wutong-docs/blog/tags/\u624b\u518c","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
